@@ -1,60 +1,22 @@
-# p5.js Template
+# Sol LeWitt – Wall Drawing #397, 1983 (Recreation)
 
-This is a README file that can be used to describe and document your assignment.
+## About the Artwork
 
-Markdown Cheatsheet (from [https://www.markdownguide.org/cheat-sheet/](https://www.markdownguide.org/cheat-sheet/)):
+## Objective
 
----
----
+The goal of this project is to recreate the elements of Sol LeWitt’s **Wall Drawing #397** using p5.js. This version includes a square and a circle with randomly adjusted sizes and borders, which reflects the original drawing’s minimalist yet complex design. The use of `for()` loops and `random()` ensures that each time the drawing is generated, it will have unique characteristics based on randomized parameters.
 
-# Heading1
-## Heading2
-### Heading3
-#### Heading4
-##### Heading5
-###### Heading6
+## Features
 
-**bold text**
+- **Shapes**: A red square and blue circle on two backgrounds.
+- **Randomization**: The size of the shapes and their border thickness are randomized, making each execution of the program yield a unique output.
+- **p5.js Implementation**: The code utilizes the `for()` loop and `random()` functions to generate the shapes and make the drawing dynamic.
 
-*italicized text*
+## Code Explanation
 
-~~strikethrough text~~
+- **`setup()` Function**: The main logic for creating the shapes is written in the `setup()` function. It generates a red square on a blue background for the left side and a blue circle on a red background for the right side of the canvas.
+  
+- **For Loops**: The `for()` loop is used to generate shapes. Although `numShapes` is set to `1`, the loop structure allows flexibility in case more shapes need to be added in the future.
 
-Ordered List:
-1. First item
-2. Second item
-3. Third item
+- **Randomization**: The size of the shapes (`squareSize` and `circleSize`) and their border thickness are randomized each time the sketch runs.
 
-Unordered List:
-- First item
-- Second item
-- Third item
-
-`short code block`
-
-```
-extended code block
-fun() {
-  return 0
-}
-```
-
-Link:  
-[linked text](https://www.example.com)
-
-
-Image with url:  
-![image description](https://dm-gy-6063-2024f-b.github.io/assets/homework/02/clark-espaco-modulado-00.jpg)
-
-
-Image on repo:  
-![image description](./file-name.jpg)
-
-
-To start a new line, add two spaces at the end of a line, like this:  
-this is a new line.
-
-
-To start a new paragraph, leave an empty line between two lines of text.
-
-This is a new paragraph.
