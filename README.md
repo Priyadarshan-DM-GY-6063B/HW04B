@@ -20,3 +20,8 @@ The goal of this project is to recreate the elements of Sol LeWitt’s **Wall Dr
 
 - **Randomization**: The size of the shapes (`squareSize` and `circleSize`) and their border thickness are randomized each time the sketch runs.
 
+Output image:
+![output image](HW04B.png)
+
+Original art:  
+![original image](street-level-art.jpg)
